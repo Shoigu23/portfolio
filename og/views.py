@@ -13,8 +13,9 @@ def og(request):
     # skils = Skill.objects.last()
     skill = Skill.objects.all()
     project = Project.objects.all()
-    return render(request, 'index.html', 
-    {'skill': skill, 'project': project})
+    return render(request, 'index.html',
+                  {'skill': skill, 'project': project})
+
 
 def message(request):
     if request.method == 'POST':

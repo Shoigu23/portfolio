@@ -24,4 +24,4 @@ urlpatterns = [
     path('', og, name='og'),
     path('message/', message, name='message'),
 ]
-urlpatterns += static(MEDIA_URL, document_root = MEDIA_ROOT)
+urlpatterns += static(MEDIA_URL, document_root=MEDIA_ROOT)

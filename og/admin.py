@@ -1,5 +1,5 @@
 from django.contrib import admin
-from og.models import Skill,Project, Message
+from og.models import Skill, Project, Message
 
 # Register your models here.
 
